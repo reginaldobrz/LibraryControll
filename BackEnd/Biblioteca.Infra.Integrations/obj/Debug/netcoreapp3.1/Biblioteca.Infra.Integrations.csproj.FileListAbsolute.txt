@@ -1,0 +1,12 @@
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\bin\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.deps.json
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\bin\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\bin\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.csprojAssemblyReference.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.csproj.CoreCompileInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.AssemblyInfoInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.AssemblyInfo.cs
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.csproj.CopyComplete
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.Integrations\obj\Debug\netcoreapp3.1\Biblioteca.Infra.Integrations.pdb

@@ -1,0 +1,14 @@
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.deps.json
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Domain.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\bin\Debug\netcoreapp3.1\Biblioteca.Domain.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.csprojAssemblyReference.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.AssemblyInfoInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.AssemblyInfo.cs
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.csproj.CopyComplete
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Infra.SqlServer.Dapper\obj\Debug\netcoreapp3.1\Biblioteca.Infra.SqlServer.Dapper.pdb

@@ -1,0 +1,9 @@
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.deps.json
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.AssemblyInfoInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.AssemblyInfo.cs
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Domain.Shared\obj\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.csprojAssemblyReference.cache

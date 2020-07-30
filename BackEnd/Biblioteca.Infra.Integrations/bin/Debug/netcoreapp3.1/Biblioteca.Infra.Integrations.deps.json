@@ -1,0 +1,398 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Biblioteca.Infra.Integrations/1.0.0": {
+        "dependencies": {
+          "Biblioteca.Domain.Shared": "1.0.0",
+          "Microsoft.Extensions.Configuration": "3.1.2",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.2",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Private.ServiceModel": "4.7.0",
+          "System.ServiceModel.Http": "4.7.0"
+        },
+        "runtime": {
+          "Biblioteca.Infra.Integrations.dll": {}
+        }
+      },
+      "Dapper/2.0.35": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.35.21366"
+          }
+        }
+      },
+      "Flunt/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
+          "Microsoft.Extensions.Primitives": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.2",
+          "Microsoft.Extensions.Configuration.Binder": "3.1.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.2",
+          "Microsoft.Extensions.Options": "3.1.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.1.2": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.100.220.6706"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Private.ServiceModel/4.7.0": {
+        "dependencies": {
+          "System.Reflection.DispatchProxy": "4.5.0",
+          "System.Security.Cryptography.Xml": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Private.ServiceModel.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.700.19.56502"
+          }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.5.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "System.Security.Cryptography.Cng/4.5.0": {},
+      "System.Security.Cryptography.Pkcs/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "System.ServiceModel.Http/4.7.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.7.0",
+          "System.ServiceModel.Primitives": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Http.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.700.19.56502"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/4.7.0": {
+        "dependencies": {
+          "System.Private.ServiceModel": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.ServiceModel.Primitives.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.700.19.56502"
+          },
+          "lib/netcoreapp2.1/System.ServiceModel.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56502"
+          }
+        }
+      },
+      "Biblioteca.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.35",
+          "Flunt": "1.0.4"
+        },
+        "runtime": {
+          "Biblioteca.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Biblioteca.Infra.Integrations/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xAgd8BO8EDnJ0sURWEV8LptHHvTKxoYiT63YUF2U/yWE2VyUCqR2jcrtEyNngT9Kjzppecz95UKiBla3PnR7g==",
+      "path": "dapper/2.0.35",
+      "hashPath": "dapper.2.0.35.nupkg.sha512"
+    },
+    "Flunt/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zsKA3Wol1+UeQBYtXuO56+ua6DBUpD5dcp3iAa86W5WcMLOWBMaDXKdqIrrLNgQUOW/U/svecb4ldgqwnC9XDQ==",
+      "path": "flunt/1.0.4",
+      "hashPath": "flunt.1.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BxwRSBab309SYMCDCFyB6eSc7FnX5m9kOJQHw2IQIyb5PEtpfslhscTw63Gwhl3dPnaM1VGFXIyI0BVgpiLgOw==",
+      "path": "microsoft.extensions.configuration/3.1.2",
+      "hashPath": "microsoft.extensions.configuration.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xmfdVdazTslWJ8od7uNS9QSPqn1wBC84RLprPrFS20EdAqd3lV0g0IZAitYbCiiICpjktnhzbUb85aLHNZ3RQw==",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWrc9/voGki2pc5g8bRXIqs+P50tXOjNf47qgFKSu/pL50InRuXxh/nj5AG9Po8YRpvT/bYIUk3XQqHH7yUg5w==",
+      "path": "microsoft.extensions.configuration.binder/3.1.2",
+      "hashPath": "microsoft.extensions.configuration.binder.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/CZzCSCIm/3FFoXHfUpsfov/Elo268dcvlz/MMINT0vPgphqg2pAgdEn/EjCDyoAT3NAmsRmjfGwBumC1uYJtA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.2",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6F4anwt9yMlnQckac2etjrasRFyqZNIp46p+i9qVps0DXNsOLZIKRkqq4AY4FlxXxKeGkEJC7M77RQEkvd3p8Q==",
+      "path": "microsoft.extensions.options/3.1.2",
+      "hashPath": "microsoft.extensions.options.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NJRuISEgTUh3/ehm0mwGx1FhepKQuUxfMm0BKJ0b8UNABuDaXFLtlV/5Bd9hT5vmeZTGGB4hvM02uRaCiSACNw==",
+      "path": "microsoft.extensions.options.configurationextensions/3.1.2",
+      "hashPath": "microsoft.extensions.options.configurationextensions.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WGtoFWY9yc9HGMG6ObDNQPz9dBP+xz/GqFe2dKjdE/cSdXFEKxCFTyYCzL/e8kxVkc/Bq9qjOsXRWydvn0g9Uw==",
+      "path": "microsoft.extensions.primitives/3.1.2",
+      "hashPath": "microsoft.extensions.primitives.3.1.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Private.ServiceModel/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BItrYCkoTV3VzVPsrew+uc34fmLb+3ncgspa7vbO3vkfY9JQCea4u34pHE+Bcv1Iy16MgRs3n2jKVRCDg0rPfg==",
+      "path": "system.private.servicemodel/4.7.0",
+      "hashPath": "system.private.servicemodel.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.DispatchProxy/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+UW1hq11TNSeb+16rIk8hRQ02o339NFyzMc4ma/FqmxBzM30l1c2IherBB4ld1MNcenS48fz8tbt50OW4rVULA==",
+      "path": "system.reflection.dispatchproxy/4.5.0",
+      "hashPath": "system.reflection.dispatchproxy.4.5.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Cng/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+      "path": "system.security.cryptography.cng/4.5.0",
+      "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Pkcs/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TGQX51gxpY3K3I6LJlE2LAftVlIMqJf0cBGhz68Y89jjk3LJCB6SrwiD+YN1fkqemBvWGs+GjyMJukl6d6goyQ==",
+      "path": "system.security.cryptography.pkcs/4.5.0",
+      "hashPath": "system.security.cryptography.pkcs.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.Xml/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i2Jn6rGXR63J0zIklImGRkDIJL4b1NfPSEbIVHBlqoIb12lfXIigCbDRpDmIEzwSo/v1U5y/rYJdzZYSyCWxvg==",
+      "path": "system.security.cryptography.xml/4.5.0",
+      "hashPath": "system.security.cryptography.xml.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Http/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+BB61ycl1cSlRbJDpABoqMa7bRE4boJfK1CfWfbNzTGeADFVmDkhylpfmC1bKloxtf95p2owj8/n7kilgRBAow==",
+      "path": "system.servicemodel.http/4.7.0",
+      "hashPath": "system.servicemodel.http.4.7.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Primitives/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YUXIMO4kL1v6dUVptJGixAx/8Ai5trQzVn3gbk0mpwxh77kGAs+MyBRoHN/5ZoxtwNn4E1dq3N4rJCAgAUaiJA==",
+      "path": "system.servicemodel.primitives/4.7.0",
+      "hashPath": "system.servicemodel.primitives.4.7.0.nupkg.sha512"
+    },
+    "Biblioteca.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Application.deps.json
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Application.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Application.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.AssemblyInfoInputs.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.AssemblyInfo.cs
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Domain.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Domain.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.csprojAssemblyReference.cache
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.csproj.CopyComplete
+C:\Users\regin\source\repos\Biblioteca\Biblioteca.Application\obj\Debug\netcoreapp3.1\Biblioteca.Application.csproj.CoreCompileInputs.cache
