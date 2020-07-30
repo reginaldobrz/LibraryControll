@@ -134,11 +134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
       "projectName": "Biblioteca.Domain.Shared",
-      "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+      "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
       "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\obj\\",
+      "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

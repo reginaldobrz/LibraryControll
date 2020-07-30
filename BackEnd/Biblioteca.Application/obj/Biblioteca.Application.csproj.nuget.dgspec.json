@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {}
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "projectName": "Biblioteca.Application",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
         "projectName": "Biblioteca.Domain.Shared",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "projectName": "Biblioteca.Domain",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -171,8 +171,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               }
             }
           }

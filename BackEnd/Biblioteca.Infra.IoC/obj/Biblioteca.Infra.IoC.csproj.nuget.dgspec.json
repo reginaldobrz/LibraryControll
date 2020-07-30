@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {}
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "projectName": "Biblioteca.Application",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
         "projectName": "Biblioteca.Domain.Shared",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "projectName": "Biblioteca.Domain",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -171,8 +171,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               }
             }
           }
@@ -238,14 +238,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
         "projectName": "Biblioteca.Infra.Integrations",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -265,8 +265,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               }
             }
           }
@@ -320,14 +320,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
         "projectName": "Biblioteca.Infra.IoC",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -347,23 +347,23 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj"
               }
             }
           }
@@ -401,14 +401,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
         "projectName": "Biblioteca.Infra.SqlServer.Dapper",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -428,11 +428,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }
@@ -478,14 +478,14 @@
         }
       }
     },
-    "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
+    "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
+        "projectUniqueName": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
         "projectName": "Biblioteca.Infra.SqlServer.Ef",
-        "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
+        "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
         "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\obj\\",
+        "outputPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -505,11 +505,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
               },
-              "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }

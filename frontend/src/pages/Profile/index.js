@@ -15,14 +15,13 @@ export default function Profile(){
     const nomeAluno = localStorage.getItem('nome');    
 
     useEffect(() => {
-        api.get('profile', {
-            headers:{
-                Authorization: ongId, 
-            }
-        }).then(response => {
+        api.get('Avaliacao/AvaliacoesPorUsuarioBiblioteca?nomeUsuario='+ nomeAluno
+        ).then(response => {
             setIncidents(response.data);
         })
-    },[ongId]);
+    },[nomeAluno]);
+
+    console.log(incidents.data);
 
     async function handleDeleteIncident(id){
         try{
@@ -53,7 +52,7 @@ export default function Profile(){
                     <FiPower size={18} color="#e02041"/>
                 </button>
             </header>
-            <h1>Casos Cadastrados</h1>
+            <h1>Avaliações Cadastradas</h1>
             <ul>
                 {incidents.map(incident => (
                     <li key={incident.id}>

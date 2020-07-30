@@ -16,7 +16,7 @@ import '../../services/api';
 import api from '../../services/api';
 
 export default function NewIncident(){
-    const [biblioteca, setBiblioteca] = useState([]);
+    const [biblioteca, setBiblioteca] = useState();
     const [book, setBook] = useState('');
     const [description, setDescription] = useState('');
     const [nota, setNota] = useState();
@@ -28,17 +28,11 @@ export default function NewIncident(){
    
     useEffect(()=>{
         api.get('Livros/LivrosBiblioteca').then(response=>{
-            setBiblioteca(response.data);
-            //console.log(response.data.data)
+             setBiblioteca(response.data.data);
         })
     },[]);  
 
-    const options = [biblioteca]
-    const options1 = [biblioteca.data]
-    const options2 = JSON.stringify(options1[0])
-    const options3 = options1[0]
-
-    console.log(options3)
+    console.log(biblioteca)
 
     const estado = [
         {conservacao:'Ótimo'}, {conservacao:'Bom'}, {conservacao:'Ruim'}
@@ -147,12 +141,12 @@ export default function NewIncident(){
                         id="outlined-select-currency"
                         select
                         label="Livros"
-                        value={options3}
+                        value={book}
                         onChange={e => setBook(e.target.value)}
                         helperText="Selecione o livro que deseja avaliar"
                         variant="outlined"
                     >
-                        {options3.map((option) => (                            
+                        {biblioteca?.map((option) => (                            
                             <MenuItem key={option.nome} value={option.nome}>
                             {option.nome}
                             </MenuItem>

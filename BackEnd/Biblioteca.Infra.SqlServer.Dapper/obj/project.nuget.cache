@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LEa/BtMEfE0H/X87E1rdO6YY061vebjZr/Fl0RFZLXnoufag4GHXFyR0wrmDzXBz9Wp/FCFGs9d2TvJ/BtzPUw==",
+  "dgSpecHash": "UJIkHqMxc5IGiEcuKLKfm8JaYcpxRkNcBQxKl/BINWjHdygX8iKRpFwLG2k7qikr3XisFYouEPwfWIpmvWxrRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
+  "projectFilePath": "C:\\Users\\regin\\Desktop\\bethehero\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regin\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\regin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
