@@ -50,5 +50,15 @@ namespace Biblioteca.Infra.SqlServer.Dapper.Repositories.Avaliacao
             }
         }
 
+        public async Task<IEnumerable<FormularioQueryResult>> DeleteAvaliacoesPorUsuarioAsync(string idAvaliacao)
+        {
+            using (System.Data.IDbConnection connection = _connectionFactory.BibliotecaConnection)
+            {
+                string sQuery = " DELETE FROM Formulario where Id= @idAvaliacao";
+                var resultado = await connection.QueryAsync<FormularioQueryResult>(sQuery, new { idAvaliacao });
+                return resultado;
+            }
+        }
+
     }
 }

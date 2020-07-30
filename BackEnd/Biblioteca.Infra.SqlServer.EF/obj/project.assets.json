@@ -7510,11 +7510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.EF.csproj",
-      "projectName": "Biblioteca.Infra.SqlServer.EF",
-      "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.EF.csproj",
+      "projectUniqueName": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
+      "projectName": "Biblioteca.Infra.SqlServer.Ef",
+      "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj",
       "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.SqlServer.EF\\obj\\",
+      "outputPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -7534,11 +7534,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
             },
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ji0E4X0M/HLKkTmMuMFmYRriq+PNmCUAiP07HGarUSTEKQ/1YW73TH4sWwgSD9clcHkw++wuaODJApfjdJz5uw==",
+  "dgSpecHash": "1H7SVyHXVcG2AjyCCXNMgyR9BrXTqDqlma5hRlPfO6X88vZkzQ62xkNUvILyigxdRr35ZLAcZ4phx9CkmKP5eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
+  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\regin\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",

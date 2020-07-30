@@ -32,7 +32,7 @@ export default function NewIncident(){
         })
     },[]);  
 
-    console.log(biblioteca)
+ 
 
     const estado = [
         {conservacao:'Ótimo'}, {conservacao:'Bom'}, {conservacao:'Ruim'}
@@ -74,13 +74,9 @@ export default function NewIncident(){
         },        
     ];
 
-    console.log(avaliacao)
-    
     
     async function handleNewIncident(e){
         e.preventDefault();
-
-        console.log(book,description,nota,conservacao)
 
         const data ={
             book,
@@ -89,27 +85,46 @@ export default function NewIncident(){
             conservacao,
         };
         try{
-            await api.post('Avaliacao/AvaliacaoLivroBiblioteca?nome='+book+'&estado='+conservacao+
+           const teste = await api.post('Avaliacao/AvaliacaoLivroBiblioteca?nome='+book+'&estado='+conservacao+
             '&nota='+nota+'&observacao='+description+'&nomeUsuario='+nomeAluno);
+
+            console.log(teste.data.data)
             
             //history.push('/incidents/new');
-
-            confirmAlert({
-                title: 'Avaliação cadastrada com sucesso',
-                message: 'Gostaria de cadastrar uma nova avaliação?',
-                buttons: [
-                  {
-                    label: 'Yes',
-                    onClick: () => history.push('/incidents/new')
-                  },
-                  {
-                    label: 'No',
-                    onClick: () => history.push('/profile')
-                  }
-                ]
-              });
+            if(teste.data.data != "Cadastrro já existe!"){
+                confirmAlert({
+                    title: 'Avaliação cadastrada com sucesso',
+                    message: 'Gostaria de cadastrar uma nova avaliação?',
+                    buttons: [
+                      {
+                        label: 'Yes',
+                        onClick: () => history.push('/incidents/new')
+                      },
+                      {
+                        label: 'No',
+                        onClick: () => history.push('/profile')
+                      }
+                    ]
+                  });
+            }else{
+                confirmAlert({
+                    title: 'Já existe uma avaliação para este livro!',
+                    message: 'Gostaria de cadastrar uma nova avaliação?',
+                    buttons: [
+                      {
+                        label: 'Yes',
+                        onClick: () => history.push('/incidents/new')
+                      },
+                      {
+                        label: 'No',
+                        onClick: () => history.push('/profile')
+                      }
+                    ]
+                  });
+            }
+            
         }catch(err){
-            alert('Erro ao cadastrar avaliação, tente novamente.')
+            alert('Pode ser que tenha esquecido de preencher algum campo do formulário, tente novamente.')
         }
     } 
 

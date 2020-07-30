@@ -955,11 +955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
+      "projectUniqueName": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
       "projectName": "Biblioteca.Infra.Integrations",
-      "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
+      "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj",
       "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.Integrations\\obj\\",
+      "outputPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -979,8 +979,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
             }
           }
         }

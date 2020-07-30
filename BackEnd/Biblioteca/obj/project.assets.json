@@ -9703,11 +9703,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.Host.csproj",
+      "projectUniqueName": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca\\Biblioteca.Host.csproj",
       "projectName": "Biblioteca.Host",
-      "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca\\Biblioteca.Host.csproj",
+      "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca\\Biblioteca.Host.csproj",
       "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9727,14 +9727,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
             },
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
             },
-            "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {
-              "projectPath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj"
             }
           }
         }

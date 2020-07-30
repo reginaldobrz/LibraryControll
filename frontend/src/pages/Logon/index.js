@@ -18,11 +18,9 @@ export default function Logon(){
 
         try{
             const response = await api.post('Usuario/UsuarioBiblioteca?nome='+ name);
-            localStorage.setItem('ongId', response.data.id);
-            localStorage.setItem('ongName', response.data.name);
             localStorage.setItem('nome', name);
 
-            history.push('/profile');
+            history.push('/incidents/new');
         }catch(err){
             alert('Falha no login, tente novamente.');
         }
@@ -51,6 +49,3 @@ export default function Logon(){
         </div>
     );
 }
-
-
-///////PAREI NO VIDEO 3 MINUTO 49:31 

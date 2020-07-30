@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aOL0pJviVl9YSBRbV2k3HBz/2TBYJdQSNqUXFoTrQ+Rtfqs3i7raMVzOH/gp5u7dXxfbrfS8vr011xCkKC9ygQ==",
+  "dgSpecHash": "Q/H3rOQM+XZ1oQ0H0I/YOdAMe9NRHHOdTo7VoWXpPnWaIB+cy8cM/KIG4mdw8ZmXzh5jduBu33chM2cj4ht2vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\regin\\source\\repos\\Biblioteca\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regin\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\regin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",

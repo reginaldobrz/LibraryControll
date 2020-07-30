@@ -36,7 +36,7 @@ namespace Biblioteca.Host.Controllers
 
             if (avaliacao != null)
                 return Response(avaliacao);
-            return BadRequest("Cadastrro já existe!");
+            return Response("Cadastrro já existe!");
         }
 
         [HttpGet("AvaliacoesPorUsuarioBiblioteca")]
@@ -47,6 +47,16 @@ namespace Biblioteca.Host.Controllers
             if (avaliacao != null)
                 return Response(avaliacao);
             return BadRequest("Cadastrro já existe!");
+        }
+
+        [HttpDelete("DeleteAvaliacoesPorUsuarioBiblioteca")]
+        public async Task<IActionResult> DeleteAvaliacoesPorUsuarioAsync(string idAvaliacao)
+        {
+            var avaliacao = await _FormularioReadDapperRepository.DeleteAvaliacoesPorUsuarioAsync(idAvaliacao);
+
+            if (avaliacao != null)
+                return Response(avaliacao);
+            return BadRequest("erro");
         }
     }
 }

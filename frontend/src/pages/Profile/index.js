@@ -12,7 +12,9 @@ export default function Profile(){
 
     const ongName = localStorage.getItem('ongName');
     const ongId = localStorage.getItem('ongId');
-    const nomeAluno = localStorage.getItem('nome');    
+    const nomeAluno = localStorage.getItem('nome');  
+    
+    const avaliacoes = incidents.data;
 
     useEffect(() => {
         api.get('Avaliacao/AvaliacoesPorUsuarioBiblioteca?nomeUsuario='+ nomeAluno
@@ -25,11 +27,8 @@ export default function Profile(){
 
     async function handleDeleteIncident(id){
         try{
-            await api.delete(`incidents/${id}`,{
-                headers: {
-                    Authorization: ongId,
-                }
-            });
+           const response = await api.delete('Avaliacao/DeleteAvaliacoesPorUsuarioBiblioteca?idAvaliacao=' + id);
+           console.log(response)
             setIncidents(incidents.filter(incident => incident.id !== id));
         }catch(err){
             alert('Erro ao deletar caso, tente novamente.')
@@ -54,16 +53,19 @@ export default function Profile(){
             </header>
             <h1>Avaliações Cadastradas</h1>
             <ul>
-                {incidents.map(incident => (
+                {avaliacoes?.map(incident => (
                     <li key={incident.id}>
-                    <strong>Caso:</strong>
-                    <p>{incident.title}</p>
+                    <strong>Livro</strong>
+                    <p>{incident.nome}</p>
 
-                    <strong>DESCRIÇÃO:</strong>
-                    <p>{incident.description}</p>
+                    <strong>Observação:</strong>
+                    <p>{incident.observacao}</p>
 
-                    <strong>VALOR:</strong>
-                    <p>{Intl.NumberFormat('pt-BR',{style: 'currency', currency: 'BRL'}).format(incident.value)}</p>
+                    <strong>Conservação:</strong>
+                    <p>{incident.estadoConsevacao}</p>
+
+                    <strong>Nota:</strong>
+                    <p>{incident.nota}</p>
 
                     <button onClick={() => handleDeleteIncident(incident.id)} type="button">
                         <FiTrash2 size={20} color="#a8a8b3"/>

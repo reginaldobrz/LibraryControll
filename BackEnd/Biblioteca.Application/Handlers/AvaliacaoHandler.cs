@@ -16,14 +16,12 @@ namespace Biblioteca.Application.Handlers
     {
         private readonly IFormularioReadDapperRepository _formularioReadDapperRepository;
         private readonly IHandler<DomainNotification> _notifications;
-
         public AvaliacaoHandler(IFormularioReadDapperRepository formularioReadDapperRepository,
             IHandler<DomainNotification> notifications)
         {
             _formularioReadDapperRepository = formularioReadDapperRepository;
             _notifications = notifications;
         }
-
         public async Task<IEnumerable<FormularioQueryResult>> LivrosAsync(string nome, string estado, int nota, string observacao, string nomeUsuario)
         { 
             var cadastroJaExistente = await _formularioReadDapperRepository.FiltrarCadastroAsync(nome, nomeUsuario);
