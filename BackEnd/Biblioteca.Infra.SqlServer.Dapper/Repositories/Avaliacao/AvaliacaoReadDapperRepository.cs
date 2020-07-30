@@ -40,5 +40,15 @@ namespace Biblioteca.Infra.SqlServer.Dapper.Repositories.Avaliacao
             }
         }
 
+        public async Task<IEnumerable<FormularioQueryResult>> AvaliacoesPorUsuarioAsync(string nomeUsuario)
+        {
+            using (System.Data.IDbConnection connection = _connectionFactory.BibliotecaConnection)
+            {
+                string sQuery = " SELECT * FROM Formulario where NomeUsuario= @nomeUsuario";
+                var resultado = await connection.QueryAsync<FormularioQueryResult>(sQuery, new { nomeUsuario });
+                return resultado;
+            }
+        }
+
     }
 }

@@ -36,7 +36,7 @@ namespace Biblioteca.Application.Handlers
                 var formulario = new FormularioQueryResult();
 
                 formulario.Nome = nome;
-                formulario.Estado = estado;
+                formulario.EstadoConsevacao = estado;
                 formulario.Nota = nota;
                 formulario.Observacao = observacao;
                 formulario.NomeUsuario = nomeUsuario;

@@ -30,7 +30,7 @@ namespace Biblioteca.Host.Controllers
         [HttpGet("LivrosBiblioteca")]
         public async Task<IActionResult> LivrosAsync()
         {
-            ; var usuario = await _livrosReadDapperRepository.ListarLivrosAsync();
+            var usuario = await _livrosReadDapperRepository.ListarLivrosAsync();
             if (usuario != null)
                 return Response(usuario);
             return BadRequest();
