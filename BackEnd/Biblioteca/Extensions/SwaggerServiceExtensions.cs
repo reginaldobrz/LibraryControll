@@ -44,7 +44,7 @@ namespace Biblioteca.Host.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("../swagger/v1/swagger.json", "Api - Info View");
+                c.SwaggerEndpoint("../swagger/v1/swagger.json", "Api - Biblioteca");
             });
 
             return app;
