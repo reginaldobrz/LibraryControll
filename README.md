@@ -83,7 +83,7 @@ Aguarde finalizar e execute o seguinte comando:
 yarn start 
 ````
 
-Pronto, se você executou os passas todos certos agora temos toda nossa aplicação pronta para ser usada e testada localmente!
+Pronto, se você executou os passos todos certos agora temos toda nossa aplicação pronta para ser usada e testada localmente!
 
 Easy hamm? 😎
 
