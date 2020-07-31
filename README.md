@@ -52,13 +52,13 @@ Então chega de enrrolação e vamos para o passo a passo e ver esse projeto rod
 * Vamos rodar nosso schema de criação do banco de dados que esta na pasta onde você clonou o projeto acima chamado de "SchemaBiblioteca.sql",
 para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18" e o "SQL server 2019":
     * Para isso sigo os seguintes passos-
-        - Baixe e instale o SQL Server 2019 e Microsoft Sql Server Management Studio 18.
+        - Baixe e instale o SQL Server 2019(https://go.microsoft.com/fwlink/?linkid=866662) e Microsoft Sql Server Management Studio 18(https://aka.ms/ssmsfullsetup).
         - Ao baixar o SQL Server, lebre-se de anotar suas credenciais de acesso a sua base local(vamos precisar dela mais tarde).
         - Baixe o schema citado acima.
         - Abra o Microsoft Sql Server Management Studio 18, importe e execute com "F5" o schema baixado.
 * Agora que já temos nossa base de dados criada vamos rodar nosso backend que contem todas as nossas API's e regras de negócio, para isso eu utilizei como ferramenta o visual studio 2019:
     * Para isso siga os seguintes passos-
-        - Baixe e instale o visual studio 2019.
+        - Baixe e instale o visual studio 2019(https://visualstudio.microsoft.com/pt-br/vs/).
         - Agora dentro da pasta que do projeto abra a pasta "BackEnd" e dentro dela vai encontrar um arquivo chamado "Biblioteca.sln", basta abrir este arquivo com o visual studio 2019 !
         - Com o projeto aberto vá atravez do "Explorador de arquivos" pelo caminho "01-Host > Biblioteca.Host > appsettings.json > " e abra o seguinte arquivo appsettings.Development.json, nele você vai encontrar uma propriedade chamada "BibliotecaoContext", nela você vai informar as credenciais de acesso da sua base de dados que pedi para que anotasse anteriormente!
 <p align="center">  
