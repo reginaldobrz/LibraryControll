@@ -24,6 +24,7 @@ Este projéto foi desenvolvido com as seguintes tecnologias:
 - [.Net Core](https://dotnet.microsoft.com/)
 - [React](https://reactjs.org)
 - [SQL-Server](https://www.microsoft.com/pt-br/sql-server?rtc=1)
+- [JavaScript](https://www.javascript.com/)
 
 ## 🗒 Introdução 
 Para esta aplicação temos tres projetos destintos, um é o nosso frontend feito em react o outro é o nosso backend feito em .NetCore e temos o schema do nosso banco de dados feito no SQL-Server.
