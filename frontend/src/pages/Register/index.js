@@ -3,6 +3,9 @@ import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import api from '../../services/api';
 
+import { confirmAlert } from 'react-confirm-alert'; // Import
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
+
 import './styles.css';
 import logoImg from '../../assets/logo.png';
 
@@ -19,8 +22,41 @@ export default function Register(){
         };
         try{
             const response = await api.post('Usuario/CriarUsuarioBiblioteca?nome='+ data.name);
-            alert(`Seu Nome é o seu acesso : ` + name)
-            history.push('/');
+
+
+            console.log(response)
+
+
+            if(response.data.data === "Usuario já cadastrado!"){
+                confirmAlert({
+                    title: data.name + ' você já é um usuário no Biblioteca Digital!',
+                    message: 'Tente acessar com seu nome:' + data.name,
+                    buttons: [
+                      {
+                        label: 'Ok',
+                        onClick: () => history.push('/')
+                      },                      
+                    ]
+                  });
+            }else{
+                confirmAlert({
+                    title: 'Usuário cadastrado com sucesso! ',
+                    message: 'Agora só precisa acessar o sistema para deixar sua avaliação!',
+                    buttons: [
+                      {
+                        label: 'Ok',
+                        onClick: () => history.push('/')
+                      },                      
+                    ]
+                  });
+            }
+
+
+
+
+
+           // alert(`Seu Nome é o seu acesso : ` + name)
+            //history.push('/');
         }catch{
             alert('Erro no cadastro tente novamente.');
         }
