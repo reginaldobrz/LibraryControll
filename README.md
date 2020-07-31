@@ -54,8 +54,9 @@ para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18
     * Para isso sigo os seguintes passos-
         - Baixe e instale o SQL Server 2019(https://go.microsoft.com/fwlink/?linkid=866662) e Microsoft Sql Server Management Studio 18(https://aka.ms/ssmsfullsetup).
         - Ao baixar o SQL Server, lebre-se de anotar suas credenciais de acesso a sua base local(vamos precisar dela mais tarde), Podem ser encontradas no momento do login:
-        <p align="center">  
- <img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/sQLSERVER.png" alt="PRs welcome!" />
+        
+<p align="center"><img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/sQLSERVER.png" alt="PRs welcome!" />
+    
         - Baixe o schema citado acima.
         - Abra o Microsoft Sql Server Management Studio 18, importe e execute com "F5" o schema baixado.
 * Agora que já temos nossa base de dados criada vamos rodar nosso backend que contem todas as nossas API's e regras de negócio, para isso eu utilizei como ferramenta o visual studio 2019:
@@ -63,8 +64,9 @@ para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18
         - Baixe e instale o visual studio 2019(https://visualstudio.microsoft.com/pt-br/vs/).
         - Agora dentro da pasta que do projeto abra a pasta "BackEnd" e dentro dela vai encontrar um arquivo chamado "Biblioteca.sln", basta abrir este arquivo com o visual studio 2019 !
         - Com o projeto aberto vá atravez do "Explorador de arquivos" pelo caminho "01-Host > Biblioteca.Host > appsettings.json > " e abra o seguinte arquivo appsettings.Development.json, nele você vai encontrar uma propriedade chamada "BibliotecaoContext", nela você vai informar as credenciais de acesso da sua base de dados que pedi para que anotasse anteriormente!
-<p align="center">  
- <img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/StringCone.png" alt="PRs welcome!" />
+    
+<p align="center"><img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/StringCone.png" alt="PRs welcome!" />
+    
         - Neste momento nossa aplicação server está de pé em um servidor localhost e pronta para ser consumida, então deixe-a rodando e vamos para o próximo passo.
     
 * Agora com nossa aplicação servidor rodando vamos iniciar nosso frontend e ver a mágica acontecer, lembrando que para isso eu utilizei as seguinte ferramenta, visual studio code:
