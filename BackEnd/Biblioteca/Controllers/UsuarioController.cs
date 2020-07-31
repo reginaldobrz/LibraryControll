@@ -39,6 +39,15 @@ namespace Biblioteca.Host.Controllers
         [HttpPost("CriarUsuarioBiblioteca")]
         public async Task<IActionResult> CriarUsuarioAsync(string nome)
         {
+            var usuarioJaExiste = await _usuarioReadDapperRepository.ListarPorNomeAsync(nome);
+            if (usuarioJaExiste == null)
+                return await NovoUsuario(nome);
+            else
+                return Response("Usuario já cadastrado!");
+        }
+
+        private async Task<IActionResult> NovoUsuario(string nome)
+        {
             var usuario = await _usuarioReadDapperRepository.CriarUsuarioAsync(nome.ToLower());
             if (usuario == null)
                 return Response(nome);

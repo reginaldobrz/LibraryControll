@@ -23,6 +23,7 @@ namespace Biblioteca.Host
             services.AddControllers();
             services.AddSwaggerDocumentation();
             services.AddContextConfiguration(Configuration);
+            services.AddCorsConfiguration();
             NativeBootStrapperBase.RegisterServices(services);
         }
 
@@ -36,15 +37,20 @@ namespace Biblioteca.Host
 
             app.UseHttpsRedirection();
 
+            app.UseCors();
+
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors("AllowAllHeaders");
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
             app.UseSwaggerConfig();
+            
         }
     }
 }

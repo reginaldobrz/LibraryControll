@@ -32,6 +32,10 @@ namespace Biblioteca.Host.Controllers
         [HttpPost("AvaliacaoLivroBiblioteca")]
         public async Task<IActionResult> LivrosAsync(string nome, string estado, int nota, string observacao, string nomeUsuario)
         {
+            if(nomeUsuario == "null")
+            {
+                return BadRequest("Informe o usuário!");
+            }
             var avaliacao = await _avaliacaoHandler.LivrosAsync(nome, estado, nota, observacao, nomeUsuario);
 
             if (avaliacao != null)
@@ -55,7 +59,7 @@ namespace Biblioteca.Host.Controllers
             var avaliacao = await _FormularioReadDapperRepository.DeleteAvaliacoesPorUsuarioAsync(idAvaliacao);
 
             if (avaliacao != null)
-                return Response(avaliacao);
+                return Response(idAvaliacao);
             return BadRequest("erro");
         }
     }
