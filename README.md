@@ -68,7 +68,7 @@ para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18
     
 <p align="center"><img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/StringCone.png" alt="PRs welcome!" />
     
-        - Neste momento nossa aplicação server está de pé em um servidor localhost e pronta para ser consumida, então deixe-a rodando e vamos para o próximo passo.
+  - Neste momento nossa aplicação server está de pé em um servidor localhost e pronta para ser consumida, então deixe-a rodando e vamos para o próximo passo.
     
 * Agora com nossa aplicação servidor rodando vamos iniciar nosso frontend e ver a mágica acontecer, lembrando que para isso eu utilizei as seguinte ferramenta, visual studio code:
     * Para isso siga os seguintes passos-
