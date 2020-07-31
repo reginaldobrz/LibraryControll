@@ -76,7 +76,7 @@ para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18
     
 * Agora com nossa aplicação servidor rodando vamos iniciar nosso frontend e ver a mágica acontecer, lembrando que para isso eu utilizei as seguinte ferramenta, visual studio code:
     * Para isso siga os seguintes passos-
-        - Baize e instale o visual studio code e a ferramenta yarn(https://classic.yarnpkg.com/en/docs/install#windows-stable).
+        - Baize e instale o visual studio code e o gerenciador de pacotes yarn(https://classic.yarnpkg.com/en/docs/install#windows-stable).
         - Abra o visual studio code e clique em arquivo(file)-abrir aquivo(open folder)-navegue ate a pasta clonada e abra a pasta "frontend"
         - Agora com o o projeto aberto, abra o terminal do visual code( CTRL + " ' ") e execute os seguintes comandos:
 ````
