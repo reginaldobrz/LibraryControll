@@ -91,7 +91,7 @@ Pronto, se você executou os passos todos certos agora temos toda nossa aplicaç
 
 Easy hamm? 😎
 
-That's all!
+<p align="center"><img src="https://github.com/reginaldobrz/LibraryControl/blob/master/img/swaggerImg.png" alt="PRs welcome!" />
 
 
 ## :memo: License
