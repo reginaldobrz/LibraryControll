@@ -30,7 +30,7 @@ export default function NewIncident(){
     },[]);  
 
     const estado = [
-        {conservacao:'Ótimo'}, {conservacao:'Bom'}, {conservacao:'Ruim'}
+        {conservacao:'Ótimo'}, {conservacao:'Bom'}, {conservacao:'Ruim'}, {conservacao:'Regular'}
     ];
 
     const avaliacao = [
