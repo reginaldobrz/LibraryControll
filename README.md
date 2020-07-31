@@ -53,12 +53,13 @@ Então chega de enrrolação e vamos para o passo a passo e ver esse projeto rod
 para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18" e o "SQL server 2019":
     * Para isso sigo os seguintes passos-
         - Baixe e instale o SQL Server 2019(https://go.microsoft.com/fwlink/?linkid=866662) e Microsoft Sql Server Management Studio 18(https://aka.ms/ssmsfullsetup).
-        - Ao baixar o SQL Server, lebre-se de anotar suas credenciais de acesso a sua base local(vamos precisar dela mais tarde), Podem ser encontradas no momento do login:
+        - Ao baixar o SQL Server, lebre-se de anotar suas credenciais de acesso a sua base local(vamos precisar dela mais tarde), Podem ser encontradas no momento do login.
+        - Baixe o schema citado acima.
+        - Abra o Microsoft Sql Server Management Studio 18, importe e execute com "F5" o schema baixado.
         
 <p align="center"><img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/sQLSERVER.png" alt="PRs welcome!" />
     
-        - Baixe o schema citado acima.
-        - Abra o Microsoft Sql Server Management Studio 18, importe e execute com "F5" o schema baixado.
+        
 * Agora que já temos nossa base de dados criada vamos rodar nosso backend que contem todas as nossas API's e regras de negócio, para isso eu utilizei como ferramenta o visual studio 2019:
     * Para isso siga os seguintes passos-
         - Baixe e instale o visual studio 2019(https://visualstudio.microsoft.com/pt-br/vs/).
