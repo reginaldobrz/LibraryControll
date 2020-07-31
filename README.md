@@ -91,7 +91,7 @@ Pronto, se você executou os passos todos certos agora temos toda nossa aplicaç
 
 Easy hamm? 😎
 
-<p align="center"><img src="https://weheartit.com/entry/230025766" alt="PRs welcome!" />
+<p align="center"><img src="https://i.pinimg.com/originals/4e/9e/6f/4e9e6f979347906a426adcbe57fd3259.gif" alt="PRs welcome!" />
 
 
 ## :memo: License
