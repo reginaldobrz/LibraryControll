@@ -1,12 +1,10 @@
 <h1 align="center">
-    <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
+    <img alt="Ecoleta" title="Ecoleta" src="https://github.com/reginaldobrz/LibraryControll/blob/master/frontend/src/assets/logo.png" width="220px" />
 </h1>
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-introduction">Introduction</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-steps-to-run-this-project">Steps</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-there-is-how-its-mobile-work">Sample</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F--where-i-found-this">Inspirations</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-introduction">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-steps-to-run-this-project">Passos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -18,15 +16,14 @@
 
 ![Alt text](https://github.com/reginaldobrz/Ecoleta/blob/master/.github/ecoleta.png)
 
-Ecoleta - A project to controll the collection points for recycling.This project was developed basicaly to study and anderstand some tecnologies. But you can use to implement some feature and fly to production, fell free! I am doind this 🤓.
+Biblioteca digital - É um projeto com intuito de registrar a opinião dos leitores a respeito dos exemplares, tanto em conteudo quanto o estado fisico do livro 🤓.
 
 ## 🚀 Technologies
-This project was developed with this following tecnologies:
+Este projéto foi desenvolvido com as seguintes tecnologias:
 
-- [Node.js](https://nodejs.org/en/)
+- [.Net Core](https://dotnet.microsoft.com/)
 - [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+- [SQL-Server](https://www.microsoft.com/pt-br/sql-server?rtc=1)
 
 ## 🗒 Introduction 
 For this project we have three diferent projects, one of them is our Mobile project the other is our Server project and the last one is our Web project! 
@@ -87,22 +84,6 @@ If every things ok, in a feel moments the application will be runing on your pho
 
 That's all!
 
-## 📲 There is how its mobile work
-![Farmers Market Finder Demo](https://github.com/reginaldobrz/Ecoleta/blob/master/.github/ecoleta.gif)
-
-
-## 🧙🏻‍♀️  Where i found this
-
-This is a 'Next Level Week' project from 'Rocketseat'developed by me ! 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Rocketseat"><img itemprop="image" class="TableObject-item avatar flex-shrink-0" src="https://avatars0.githubusercontent.com/u/28929274?s=200&amp;v=4" width="200" height="200" alt="@Rocketseat"><br /><sub><b>Rocketseat</b></sub></a><br />💻</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## :memo: License
 
