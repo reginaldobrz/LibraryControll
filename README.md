@@ -2,9 +2,9 @@
     <img alt="Ecoleta" title="Ecoleta" src="https://github.com/reginaldobrz/LibraryControll/blob/master/frontend/src/assets/logo.png" width="220px" />
 </h1>
 <p align="center">
-  <a href="#-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-introduction">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Passos-para-rodar-o-rojeto">Passos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-introducao">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-passos-para-rodar-o-rojeto">Passos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -18,14 +18,14 @@
 
 Biblioteca digital - É um projeto com intuito de registrar a opinião dos leitores a respeito dos exemplares, tanto em conteudo quanto o estado fisico do livro 🤓.
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 Este projéto foi desenvolvido com as seguintes tecnologias:
 
 - [.Net Core](https://dotnet.microsoft.com/)
 - [React](https://reactjs.org)
 - [SQL-Server](https://www.microsoft.com/pt-br/sql-server?rtc=1)
 
-## 🗒 Introduction 
+## 🗒 Introdução 
 Para esta aplicação temos tres projetos destintos, um é o nosso frontend feito em react o outro é o nosso backend feito em .NetCore e temos o schema do nosso banco de dados feito no SQL-Server.
 
 * 🖥 BackEnd : Aqui implementei toda nossa regra de négocio em API Rest, logo temos um total de tres endPoints para a avaliação dada pelos usuários, um end point para os livros cadastrados e dois endpoints para o usuário:
