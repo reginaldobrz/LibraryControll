@@ -39,6 +39,10 @@ Para esta aplicação temos tres projetos destintos, um é o nosso frontend feit
     * Usuário-
         - Criação de um novo usuário.
         - Listar usuário cadastrado.
+        
+        
+<p align="center"><img src="https://github.com/reginaldobrz/LibraryControl/blob/master/img/swagger.png" alt="PRs welcome!" />
+    
 
 * 🛠 FrontEnd: Já para o front end temos todos estes recursos sendo adaptados para a visão criada, logo temos uma página de logon, formulario e cadastr de usuário
 
