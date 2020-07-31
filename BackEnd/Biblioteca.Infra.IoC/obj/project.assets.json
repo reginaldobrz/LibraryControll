@@ -8158,11 +8158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
+      "projectUniqueName": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
       "projectName": "Biblioteca.Infra.IoC",
-      "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
+      "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.IoC\\Biblioteca.Infra.IoC.csproj",
       "packagesPath": "C:\\Users\\regin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.IoC\\obj\\",
+      "outputPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8182,23 +8182,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj"
             },
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj"
             },
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
             },
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.Integrations\\Biblioteca.Infra.Integrations.csproj"
             },
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.SqlServer.Dapper\\Biblioteca.Infra.SqlServer.Dapper.csproj"
             },
-            "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
-              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj"
+            "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj": {
+              "projectPath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Infra.SqlServer.EF\\Biblioteca.Infra.SqlServer.Ef.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EyM8QFZddg03XDmGs/M+k56NmSgDiUWllLoJEvFwt3COHeHwroQN/a2NYZPdEzR7mjyxD1nirTVGdWkMwH8v7Q==",
+  "dgSpecHash": "m1h57n1o9zZoo7h7mHtE817AUytb641juXxQjFiAhAMJQqR77aJRcBx7npT4GYOQZloZSYgynkjcHw42oJU3OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
+  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Domain.Shared\\Biblioteca.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\regin\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",

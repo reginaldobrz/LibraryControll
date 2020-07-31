@@ -22,3 +22,15 @@ C:\Users\regin\Desktop\biblioteca\Biblioteca\BackEnd\Biblioteca.Domain\obj\Debug
 C:\Users\regin\Desktop\biblioteca\Biblioteca\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.csproj.CopyComplete
 C:\Users\regin\Desktop\biblioteca\Biblioteca\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.dll
 C:\Users\regin\Desktop\biblioteca\Biblioteca\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.pdb
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\bin\Debug\netcoreapp3.1\Biblioteca.Domain.deps.json
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\bin\Debug\netcoreapp3.1\Biblioteca.Domain.dll
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\bin\Debug\netcoreapp3.1\Biblioteca.Domain.pdb
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.dll
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\bin\Debug\netcoreapp3.1\Biblioteca.Domain.Shared.pdb
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.csprojAssemblyReference.cache
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.csproj.CoreCompileInputs.cache
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.AssemblyInfoInputs.cache
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.AssemblyInfo.cs
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.csproj.CopyComplete
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.dll
+C:\Users\regin\Desktop\biblioteca2\LibraryControll\BackEnd\Biblioteca.Domain\obj\Debug\netcoreapp3.1\Biblioteca.Domain.pdb

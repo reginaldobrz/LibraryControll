@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9duqDId1XCBQnFNNxmBskGsEBjFUxIkkN0PYEhHIdZFNGzp5yRe8bDhq7cZ3O4HrFMmsdEZmk0F4KN2HHS98xQ==",
+  "dgSpecHash": "dm+4wqGOnI0jJ5s4kClJ3a2RJcMqDO1UbBdOhSnKz4m6gaEsbMo+jTRwNMQ9cVm1iMSSTKY5Q4S5vANzlup+6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca\\Biblioteca\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
+  "projectFilePath": "C:\\Users\\regin\\Desktop\\biblioteca2\\LibraryControll\\BackEnd\\Biblioteca.Application\\Biblioteca.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\regin\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\regin\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
