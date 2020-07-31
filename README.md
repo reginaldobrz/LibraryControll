@@ -60,6 +60,8 @@ para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18
         - Baixe e instale o visual studio 2019.
         - Agora dentro da pasta que do projeto abra a pasta "BackEnd" e dentro dela vai encontrar um arquivo chamado "Biblioteca.sln", basta abrir este arquivo com o visual studio 2019 !
         - Com o projeto atravez do "Explorador de arquivos" navegue  pelo caminho "01-Host > Biblioteca.Host > appsettings.json > " e abra o seguinte arquivo appsettings.Development.json, nele você vai encontrar uma propriedade chamada "BibliotecaoContext", nela você vai informar as credenciais de acesso da sua base de dados que pedi para que anotasse anteriormente!
+<p align="center">  
+ <img src="https://github.com/reginaldobrz/LibraryControll/blob/master/img/StringCone.png" alt="PRs welcome!" />
         - Neste momento nossa aplicação server está de pé em um servidor localhost e pronta para ser consumida, então deixe-a rodando e vamos para o próximo passo.
 * Agora com nossa aplicação servidor rodando vamos iniciar nosso frontend e ver a mágica acontecer, lembrando que para isso eu utilizei as seguinte ferramenta, visual studio code:
     * Para isso siga os seguintes passos-
