@@ -2,22 +2,16 @@ import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi';
 import api from '../../services/api';
-
-
-
 import logoImg from '../../assets/logo.png';
 import './styles.css';
 
-
-
 export default function Profile(){
+
     const [incidents, setIncidents] = useState([]);
     const history = useHistory();
-
     const ongName = localStorage.getItem('ongName');
     const ongId = localStorage.getItem('ongId');
-    const nomeAluno = localStorage.getItem('nome');  
-    
+    const nomeAluno = localStorage.getItem('nome');
     const avaliacoes = incidents.data;
 
     useEffect(() => {
@@ -27,14 +21,10 @@ export default function Profile(){
         })
     },[nomeAluno]);
 
-    console.log(incidents.data);
-
     async function handleDeleteIncident(id){
         try{
            const response = await api.delete(`Avaliacao/DeleteAvaliacoesPorUsuarioBiblioteca?idAvaliacao=${id}`);
-           console.log(response)
            history.push('/incidents/new');
-            //setIncidents(avaliacoes.filter(incident => incident.id !== id));
         }catch(err){
             alert('Erro ao deletar caso, tente novamente.')
         }        

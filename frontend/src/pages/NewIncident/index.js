@@ -1,21 +1,18 @@
 import React, { useState, useEffect } from 'react';
-
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import logoImg from '../../assets/logo.png';
-
 import { confirmAlert } from 'react-confirm-alert'; // Import
 import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
-
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
-
 import './styles.css';
 import '../../services/api';
 import api from '../../services/api';
 
 export default function NewIncident(){
+
     const [biblioteca, setBiblioteca] = useState();
     const [book, setBook] = useState('');
     const [description, setDescription] = useState('');
@@ -31,8 +28,6 @@ export default function NewIncident(){
              setBiblioteca(response.data.data);
         })
     },[]);  
-
- 
 
     const estado = [
         {conservacao:'Ótimo'}, {conservacao:'Bom'}, {conservacao:'Ruim'}
@@ -88,10 +83,7 @@ export default function NewIncident(){
            const teste = await api.post('Avaliacao/AvaliacaoLivroBiblioteca?nome='+book+'&estado='+conservacao+
             '&nota='+nota+'&observacao='+description+'&nomeUsuario='+nomeAluno);
 
-            console.log(teste.data.data)
-            
-            //history.push('/incidents/new');
-            if(teste.data.data != "Cadastrro já existe!"){
+            if(teste.data.data !== "Cadastrro já existe!"){
                 confirmAlert({
                     title: 'Avaliação cadastrada com sucesso',
                     message: 'Gostaria de cadastrar uma nova avaliação?',
@@ -120,38 +112,31 @@ export default function NewIncident(){
                         onClick: () => history.push('/profile')
                       }
                     ]
-                  });
-            }
-            
+                });
+            }            
         }catch(err){
             alert('Pode ser que tenha esquecido de preencher algum campo do formulário, tente novamente.')
         }
     } 
 
-    return (
-        
-        <div className="new-incident-container">
-            
+    return (        
+        <div className="new-incident-container">            
             <div className="content">
                 <section>
-                    <img src={logoImg} alt="Be The Hero"/>
-
+                    <img src={logoImg} alt="Biblioteca"/>
                     <h1>Cadastrar avaliação</h1>
                     <p>Preencha o formulário com as observações do livro que leu</p>
-
                     <Link className= "back-link" to="/profile">
                         <FiArrowLeft size={16} color= "#e02041"/>
                         Voltar para home
                     </Link>   
                 </section>
                 <form onSubmit={handleNewIncident}>
-
                     <textarea 
                         placeholder="Descrição" 
                         value={description}
                         onChange={e => setDescription(e.target.value)}
-                    />
-                  
+                    />                  
                     <TextField
                         id="outlined-select-currency"
                         select
@@ -167,7 +152,6 @@ export default function NewIncident(){
                             </MenuItem>
                         ))}
                     </TextField>
-
                     <TextField
                         id="outlined-select-currency"
                         select
@@ -184,7 +168,6 @@ export default function NewIncident(){
                             </MenuItem>
                         ))}
                     </TextField>
-
                     <TextField
                         id="outlined-select-currency"
                         select
@@ -201,10 +184,8 @@ export default function NewIncident(){
                         ))}
                     </TextField>                   
                     <button className="button" type="submit">Cadastrar </button>
-                </form>
-                
-            </div>
-            
+                </form>                
+            </div>            
         </div>
     );
 }
