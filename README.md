@@ -14,7 +14,7 @@
 <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
   </p>
 
-![Alt text](https://github.com/reginaldobrz/Ecoleta/blob/master/.github/ecoleta.png)
+
 
 Biblioteca digital - É um projeto com intuito de registrar a opinião dos leitores a respeito dos exemplares, tanto em conteudo quanto o estado fisico do livro 🤓.
 
@@ -26,61 +26,57 @@ Este projéto foi desenvolvido com as seguintes tecnologias:
 - [SQL-Server](https://www.microsoft.com/pt-br/sql-server?rtc=1)
 
 ## 🗒 Introduction 
-For this project we have three diferent projects, one of them is our Mobile project the other is our Server project and the last one is our Web project! 
+Para esta aplicação temos tres projetos destintos, um é o nosso frontend feito em react o outro é o nosso backend feito em .NetCore e temos o schema do nosso banco de dados feito no SQL-Server.
 
-* 🖥 Web Project : This project is a way to integrate our aplication into web like a diferent tool, let's me explain better. With this project you will have a portal to register new collect points. And see some informations about all the existed points!
+* 🖥 BackEnd : Aqui implementei toda nossa regra de négocio em API Rest, logo temos um total de tres endPoints para a avaliação dada pelos usuários, um end point para os livros cadastrados e dois endpoints para o usuário:
+    * Avaliação-
+        - Registro de uma nova avaliação.
+        - Avaliações por usuário.
+        - Delete de avaliação.
+    * Livros-
+        - Listagem dos exemplares registrados no sistema.
+    * Usuário-
+        - Criação de um novo usuário.
+        - Listar usuário cadastrado.
 
-* 📱 Mobile Project : This project is our mobile application, here you will find a form to register a new point and see all collect points around you just using your smartPhone wherever you want!
+* 🛠 FrontEnd: Já para o front end temos todos estes recursos sendo adaptados para a visão criada, logo temos uma página de logon, formulario e cadastr de usuário
 
-* 🛠 Server Project : This project is the brain of all, it is where you will find all business rules and the ecoleta engine! Fell free to study more about this project because we use a lot of thecnologies and features ! 
-
-So let's go to the first step to run our project.
+Então chega de enrrolação e vamos para o passo a passo e ver esse projeto rodando!
 
 
-## 💻 Steps to run this project
+## 💻 Passos para rodar o projeto
 
-First of all we need to install all dependencies to our project, run this comand line into each project(Web, Server and Mobile).
+* Antes de tudo clone o repositorio para uma pasta do seu computador!
 
+* Vamos rodar nosso schema de criação do banco de dados que esta na pasta onde você clonou o projeto acima chamado de "SchemaBiblioteca.sql",
+para o projeto foi usada a ferramenta "Microsoft Sql Server Management Studio 18" e o "SQL server 2019":
+    * Para isso sigo os seguintes passos-
+        - Baixe e instale o SQL Server 2019 e Microsoft Sql Server Management Studio 18.
+        - Ao baixar o SQL Server, lebre-se de anotar suas credenciais de acesso a sua base local(vamos precisar dela mais tarde).
+        - Baixe o schema citado acima.
+        - Abra o Microsoft Sql Server Management Studio 18, importe e execute com "F5" o schema baixado.
+* Agora que já temos nossa base de dados criada vamos rodar nosso backend que contem todas as nossas API's e regras de negócio, para isso eu utilizei como ferramenta o visual studio 2019:
+    * Para isso siga os seguintes passos-
+        - Baixe e instale o visual studio 2019.
+        - Agora dentro da pasta que do projeto abra a pasta "BackEnd" e dentro dela vai encontrar um arquivo chamado "Biblioteca.sln", basta abrir este arquivo com o visual studio 2019 !
+        - Com o projeto atravez do "Explorador de arquivos" navegue  pelo caminho "01-Host > Biblioteca.Host > appsettings.json > " e abra o seguinte arquivo appsettings.Development.json, nele você vai encontrar uma propriedade chamada "BibliotecaoContext", nela você vai informar as credenciais de acesso da sua base de dados que pedi para que anotasse anteriormente!
+        - Neste momento nossa aplicação server está de pé em um servidor localhost e pronta para ser consumida, então deixe-a rodando e vamos para o próximo passo.
+* Agora com nossa aplicação servidor rodando vamos iniciar nosso frontend e ver a mágica acontecer, lembrando que para isso eu utilizei as seguinte ferramenta, visual studio code:
+    * Para isso siga os seguintes passos-
+        - Baize e instale o visual studio code e a ferramenta yarn(https://classic.yarnpkg.com/en/docs/install#windows-stable).
+        - Abra o visual studio code e clique em arquivo(file)-abrir aquivo(open folder)-navegue ate a pasta clonada e abra a pasta "frontend"
+        - Agora com o o projeto aberto, abra o terminal do visual code e execute os seguintes comandos:
 ````
-npm install
+yarn 
 ````
+Aguarde finalizar e execute o seguinte comando:
+````
+yarn start 
+````
+
+Pronto, se você executou os passas todos certos agora temos toda nossa aplicação pronta para ser usada e testada localmente!
+
 Easy hamm? 😎
-
-Now you need to create a database, i am using for this project the Sqlite! So, just run the command to create tables into your Database!
-
-```
-npx knex migrate:latest --knexfile knexfile.ts migrate:latest
-```
-
-So now you have created tree tables (Points, Point_items, items), this table point_items give us the relation between points and items, this relation is N to N! 
-
-After that all of the road to run this proect is done! Now we have to stand our server to put all of informations on. To do this just go inside the folder project server and run this command.
-
-```
-npm run dev 
-```
-
-If no message errors appears, your server is up! now our mobile project and web project have somewhere to connect and take some data!
-
-And than, let's go to our front end, remember to see something don't stop your server, ok! now just go to web project folder and run this command line.
-
-```
-npm start 
-```
-
-Wait a moment and than your web browser will open with the application on ! 
-
-To our mobile projet the process is a little diferent, Go to the mobile project  folder and than run this command line into your terminal.
-
-```
-expo start  
-```
-
-After that a web browser page will open with a QRCode inside, to run the app on your phone with this code just download the 'EXPO' app from your app store! 
-
-When the instalation finished, open the camera and point to the code! A option to open the app will appear, click on that and wait to the magic!
-
-If every things ok, in a feel moments the application will be runing on your phone!
 
 That's all!
 
